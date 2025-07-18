@@ -5,6 +5,7 @@ import dotenv from "dotenv"
 const allowedOrigins = [
     "http://localhost:5173",
     "http://localhost:3000",
+    "https://task3wsolutions.onrender.com"
 ];
 
 export const corsOptions = {
