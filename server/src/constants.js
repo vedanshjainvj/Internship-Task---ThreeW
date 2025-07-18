@@ -8,7 +8,8 @@ export const corsOptions = {
         const allowedOrigins = [
             "http://localhost:5173",
             "http://localhost:3000",
-            "https://internship-task-three-w.vercel.app"
+            "https://internship-task-three-w.vercel.app",
+            "https://threewsol.vedanshjain.me"
         ];
         if (!origin || allowedOrigins.includes(origin)) {
             console.log("Allowed Origin: ", origin);
