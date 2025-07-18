@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/:path(.*)",
+      "destination": "/?:path"
+    }
+  ],
+  "buildCommand": "rm -rf node_modules package-lock.json && npm install && npm run build"
+}
